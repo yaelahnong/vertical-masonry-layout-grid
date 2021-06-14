@@ -14,7 +14,7 @@ function image() {
 	const imageEl = document.createElement('img');
 	const width = Math.ceil(Math.random() * 1000) + 600;
 	const height = Math.ceil(Math.random() * 1000) + 600;
-	console.log(`width: ${width}, height: ${height}`);
+	// console.log(`width: ${width}, height: ${height}`);
 
 	imageEl.setAttribute('src', `https://source.unsplash.com/${width}x${height}`);
 	imageEl.setAttribute('loading', 'lazy');
